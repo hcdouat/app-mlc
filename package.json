@@ -1,0 +1,13 @@
+{
+    "name": "app-mlc",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node servidor.js",
+        "build": "tsc",
+        "teste": "ts-node servidor.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^24.3.0",
+        "ts-node": "^10.9.2"
+    }
+}
