@@ -1,9 +1,7 @@
 const http = require('http');
-import type {IncomingMessage, ServerResponse} from 'http';
+import {createServer, type IncomingMessage, type ServerResponse} from 'http';
 
-
-
-const server = http.createServer((req: IncomingMessage, res: ServerResponse) => {
+const server = createServer((req: IncomingMessage, res: ServerResponse) => {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello, world!\n');
 });
