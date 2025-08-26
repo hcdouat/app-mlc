@@ -1,4 +1,3 @@
-const http = require('http');
 import {createServer, type IncomingMessage, type ServerResponse} from 'http';
 
 const server = createServer((req: IncomingMessage, res: ServerResponse) => {
