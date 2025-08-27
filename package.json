@@ -4,7 +4,7 @@
     "scripts": {
         "start": "node server.js",
         "build": "tsc",
-        "test": "ts-node server.ts"
+        "dev": "ts-node server.ts"
     },
     "devDependencies": {
         "@types/node": "^24.3.0",
