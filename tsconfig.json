@@ -1,3 +1,3 @@
 {
-    "compilerOptions": {"target": "esnext", "strict": true, "module": "nodenext", "moduleResolution": "nodenext"}
+    "compilerOptions": {"target": "esnext", "module": "nodenext", "moduleResolution": "nodenext", "strict": true}
 }
